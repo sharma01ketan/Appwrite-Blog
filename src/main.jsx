@@ -17,6 +17,8 @@ import Post from "./pages/Post";
 
 import AllPosts from "./pages/AllPosts";
 
+import MyTemplate from './pages/MyTemplate.jsx'
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -72,6 +74,10 @@ const router = createBrowserRouter([
         {
             path: "/post/:slug",
             element: <Post />,
+        },
+        {
+            path: "/MyTemplate",
+            element: <MyTemplate />,
         },
     ],
 },
