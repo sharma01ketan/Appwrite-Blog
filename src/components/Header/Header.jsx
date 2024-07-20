@@ -179,7 +179,12 @@ function Header() {
         <nav className='flex flex-wrap items-center'>
           <div className='mr-4'>
             <Link to='/'>
-              <Logo width='70px'   />
+              {/* <Logo width='70px'   /> */}
+              <div style={{ display: 'flex', alignItems: 'center' }}>
+                  <img src="/vite.svg" alt="Vite Logo" style={{ width: 70 }} />
+  <span style={{ marginLeft: '10px' }}>Let's Blog</span>
+  {/* <Logo width='70px'/> */}
+</div>
             </Link>
           </div>
           <ul className='flex flex-wrap ml-auto items-center'>
